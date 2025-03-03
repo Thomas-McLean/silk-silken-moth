@@ -1,3 +1,1 @@
-# silk-silken-moth
-
-remix of digital poem from week 1 of digital writing
+ReadMe files can be used to add descriptions of your project. You can edit this text - no need for special formatting or coding.
