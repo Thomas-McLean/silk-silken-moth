@@ -5,8 +5,9 @@ body {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 12px;
   margin: 2em;
-  background: #cbf1e4;
-  background-image: linear-gradient(
+  background: #8b96db;
+  background-image: linear-gradient(#8b96db,white);
+  /* background-image: linear-gradient(
     black,
     pink,
     #cbf1e4
@@ -51,9 +52,9 @@ h5 {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2); /* this adds the "card" effect */
   padding: 16px;
   border-radius: 10px 10px 10px 10px;
-  background-image: url("https://cdn.glitch.global/1500d7f0-a2c8-489c-88a2-d7899293787b/clouds.jpeg?v=1704340625786");
-  background-size: cover;
-  background-repeat: no-repeat;
+  background-image: url("https://cdn.glitch.global/6cb3f3e5-8477-4cee-82f0-f57004e0eb89/thumbnails%2Fanita-austvika-flpB5nM46tA-unsplash.jpg?1741744213294");
+  background-size: 500px;
+  background-repeat: repeat;
   text-align: center;
   font-family: "PT Serif", serif;
   font-size: 1.5em;
@@ -85,7 +86,7 @@ h5 {
   background-repeat: no-repeat;
   min-height: 375px;
   color: white;
-  font-family: "Source Code Pro", monospace;
+  font-family: "Roboto Condensed", sans-serif;
   font-size: 12px;
 }
 
