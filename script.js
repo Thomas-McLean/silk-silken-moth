@@ -57,22 +57,22 @@ function dropdownFunction() {
 //start of haiku function
 //lists of variables: replace all of the 5 and 7 syllable constants in the two arrays below. The more constants you write, the more variety you will have in your poem
 const fiveSyllables = [
-  "jon you are my pet",
-  "garfield was in the oven",
-  "pizza is a dream",
-  "hand over the cheese",
-  "parmesean is life",
-  "i am so hungry",
-  "where did odie go",
-  "get it your damn self",
-  "obey me human",
+  "morning sun was harsh",
+  "excess stock left over",
+  "a rare kind of youth",
+  "on each fleck of paint",
+  "face now turned away",
+  "the box was empty",
+  "ants? on the tenth floor?",
+  "a flat line of sound",
+  "cheapest of its sort",
 ];
 const sevenSyllables = [
-  "cheese makes everything better",
-  "the noodles must be wavey",
-  "nothing left to do but sleep",
-  "thinking about lasagne",
-  "yuk, no i don't want salad",
+  "trapped in a tiny glass bowl",
+  "two stools and a coffee table",
+  "a convenient flat-pack",
+  "patchy old leather creature",
+  "the shape of a past self's dreams",
 ];
 //code for haiku function (do not edit)
 const buttonHaiku = document.getElementById("button-haiku");
@@ -105,26 +105,31 @@ const textInput = document.getElementById("text-input");
 //search function constants
 //play with Google search function to come up with search terms most relevant to you. Think about how these search terms tell a story. Replace all of the placeholder text below (phrases in red font) with search terms of your own. If you keep the phrases organised alphabetically, you can ensure you have enough results for each word.
 const words = [
-  "art of war free download",
-  "ask izzy",
-  "australian family law issues in the news",
+  "ant infestation signs",
+  "afternoon sun location",
+  "australian election date",
+  "attraction synonyms",
 
-  "barrister vs lawyer australia",
-  "barrister vs solicitor",
-  "bulk billed therapy",
+  "battle robots flamethrower use?",
+  "biscuit recipe",
+  "banal synonyms",
 
-  "can i seek to vary my family court order",
-  "ccs has no cctv",
-  "childcare how expensive",
+  "can fire spread to pigs?",
+  "can fire spread to pigs minecraft",
+  "coffee benefits",
+  "caffeine symptoms",
 
-  "delete search history",
-  "delusional jealousy",
-  "dv stats australia",
+  "delve ai?",
+  "desert/dessert puns",
+  "dunce synonyms",
+  "dunce synonyms politically correct",
 
-  "earliest memories as a child",
-  "emotional manipulation signs",
+  "elves are racist?",
+  "endings synonyms",
 
-  "fridge magnets",
+  "fire poems",
+  "furtive synonyms",
+  "fulcrum definition"
 ];
 //search function (do not edit)
 function changeText(e) {
@@ -156,15 +161,15 @@ textInput.addEventListener("input", changeText);
 //start of code for poem
 
 const subjects =
-    "robots, pilgrims, broken families, displaced animals, right-wing militants, cyborgs".split(
+    "students, failures, nascent adults, the burnt-out, proud failures, disappointments".split(
       ","
     ),
   verbs =
-    "wander,search, cross, kneel to pray in, avoid, survey, sneak across, hide in".split(
+    "wander around, crawl into, eschew, climb, avoid, party in, sneak into, are afraid of".split(
       ","
     ),
   objects =
-    "the barren plains,the wilted grasslands, vast wastelands,wildernesses unknown,languishing caravan parks, arid deserts, military bunkers, valleys of ash and bone".split(
+    "the empty classrooms, cheap apartments, fire escapes, corners of the library , memories of childhood, memories of adulthood, secret places, others' homes".split(
       ","
     );
 // set up the counter
@@ -220,4 +225,4 @@ function processPoem() {
     removeFirstLine();
   }
 }
-window.setInterval(processPoem, 1000);
+window.setInterval(processPoem, 2000);
